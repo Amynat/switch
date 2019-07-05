@@ -1,4 +1,9 @@
-
+body{
+  font-family: open-sans;
+  display: contents;
+  flex-direction: column;
+  text-align: center;
+}
 .tea-logo{
     color: #fec503;
     font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,
@@ -20,8 +25,39 @@
     .btn-xl{
         padding: 10px;
     }
-    .fashion-list{
-        list-style: ;
-        list-style: none;
-        padding: 5px;
-    }
+.topping{
+  /*margin-top: 50px;
+  padding: 15px;*/
+}
+.minisection{
+  margin: 20px;
+  padding-top: 10px;
+}
+.inputstyle{
+  margin: 5px;
+  color: blue;
+  font-size: 15sp;
+  padding: 10px;
+}
+.teaform{
+  align-items: center;
+  text-align: center;
+}
+.order{
+  padding: 20px;
+  background-color: white;
+}
+#cta{
+  opacity: 0.6;
+}
+.header{
+  background-image: url('../img/teamanki.jpg  ');
+  padding: 0;
+  margin: 0;
+}
+.imagepad{
+  padding-top:10rem;
+  padding-left: 5rem;
+  padding-bottom: 10rem;
+  padding-right: 5rem;
+}
